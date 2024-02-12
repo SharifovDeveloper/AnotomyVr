@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SepAO_Mat
+  m_Shader: {fileID: 4800000, guid: 936eb9bc881072e458d62d75ed8e47a2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MakeUpMask1_RGB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MakeUpMask2_RGB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalGloss:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroDetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MicroDetail_WeightMapGreyscaleR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMask1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OpacityMask2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSS_TextureWeightA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AmbientOcclusion: 1
+    - _BackScatterPower: 0
+    - _Cutoff: 0.5
+    - _CutoutMask1: 1
+    - _CutoutMask2: 1
+    - _FinalNormalMapPower: 1
+    - _GlossAdjust_Mask1Bchannel: -1
+    - _GlossAdjust_Mask1Gchannel: 0
+    - _GlossAdjust_Mask1Rchannel: 0
+    - _GlossAdjust_Mask2Bchannel: 0
+    - _GlossAdjust_Mask2Gchannel: 0
+    - _GlossAdjust_Mask2Rchannel: 0
+    - _LightScatter: 0
+    - _Light_Bias: 0
+    - _Light_Scale: 0
+    - _Mask1_Invert: 0
+    - _Mask2_Invert: 0
+    - _MicroDetail_Offset: 0
+    - _MicroDetail_Power: 1
+    - _MicroDetail_Tiling: 1
+    - _SSS_ToEmissive: 0.1
+    - _SSS_WeightAmount: 0
+    - _SmoothnessDeviate: 0
+    - __dirty: 0
+    m_Colors:
+    - _Albedo_Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _MainLightTint: {r: 1, g: 1, b: 1, a: 0}
+    - _Mask1_Bchannel_ColorAmountA: {r: 0.2, g: 0.406334, b: 0.772549, a: 0.7843137}
+    - _Mask1_Gchannel_ColorAmountA: {r: 0.2, g: 0.772549, b: 0.4917381, a: 0.7843137}
+    - _Mask1_Rchannel_ColorAmountA: {r: 0.7735849, g: 0.2006942, b: 0.3233189, a: 0.7843137}
+    - _Mask2_Bchannel_ColorAmountA: {r: 0.772549, g: 0.7037676, b: 0.2, a: 0.7843137}
+    - _Mask2_Gchannel_ColorAmountA: {r: 0.772549, g: 0.2, b: 0.6776864, a: 0.7843137}
+    - _Mask2_Rchannel_ColorAmountA: {r: 0.2, g: 0.772549, b: 0.7071339, a: 0.7843137}
+    - _ScatterColor: {r: 0, g: 0, b: 0, a: 0}
